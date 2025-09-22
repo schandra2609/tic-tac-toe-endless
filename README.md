@@ -92,16 +92,6 @@ This creates a `dist/` folder with optimized static files ready for deployment.
 - **Game Logic**: Custom JavaScript implementation
 - **Queue Management**: Custom queue data structure
 
-## 🗺️ Roadmap
-
-### Upcoming Features
-- 🌐 **Online Multiplayer**: Play with friends from different devices
-- 🎲 **Global Matchmaking**: Face random opponents worldwide
-- 🤖 **AI Opponent**: Challenge computer players with varying difficulty levels
-- 👫 **Friend Mode**: Direct invites and private rooms
-- 📊 **Statistics**: Track wins, losses, and game history
-- 🎨 **Themes**: Multiple visual themes and customization options
-
 ## 🤝 Contributing
 
 Contributions are welcome! Here's how you can help:
