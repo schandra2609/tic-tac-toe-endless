@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 // The Game Board (with Reset Button)
 const Board = ({ turnx, setTurnx }) => {
-    const MAX_BLOCK = 7;                                                                  // Queue Size
+    const MAX_BLOCK = 6;                                                                  // Queue Size
     const [grid, setGrid] = useState(Array(3).fill(null).map(() => Array(3).fill(null))); // Game Board (Initially Blank)
     const [winner, setWinner] = useState(null);                                           // To store the winner
     const [winningLine, setWinningLine] = useState([]);                                   // Mtaching line on the board to get the winner
