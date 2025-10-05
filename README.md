@@ -7,8 +7,8 @@ An innovative twist on the classic Tic-Tac-Toe game that eliminates draws and cr
 Unlike traditional Tic-Tac-Toe where games often end in draws, **Tic-Tac-Toe: Endless** implements a revolutionary queue system that ensures every game has a winner while adding layers of strategy and prediction.
 
 ### Key Innovation: The Infinity Queue
-- **Queue Length**: 7 symbols maximum on the board
-- **Dynamic Gameplay**: When the 8th symbol is placed, the oldest symbol automatically disappears
+- **Queue Length**: 6 symbols maximum on the board
+- **Dynamic Gameplay**: When the 7th symbol is placed, the oldest symbol automatically disappears
 - **Strategic Depth**: Players must predict which symbols will vanish and plan accordingly
 - **No More Draws**: The continuous symbol rotation guarantees a winner
 
@@ -74,6 +74,23 @@ yarn build
 ```
 
 This creates a `dist/` folder with optimized static files ready for deployment.
+
+### Deploy on Netlify
+1. **Install Netlify-CLI**: Make sure you have Node.js and npm installed, then run:
+```bash
+npm install -g netlify-cli
+```
+
+2. **Authenticate with Netlify**: Login to your Netlify account (or create one if you don’t have it):
+```bash
+netlify login
+```
+This command opens a browser window where you can authorize Netlify-CLI.
+
+3. **Deploy to Netlify**: Use the Netlify-CLI to build your project for production and deploy it:
+```bash
+npm run netlify-deploy     # Custom npm script for both building for production and deploying on netlify
+```
 
 ## 🎯 How to Play
 
