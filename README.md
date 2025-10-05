@@ -14,13 +14,13 @@ Unlike traditional Tic-Tac-Toe where games often end in draws, **Tic-Tac-Toe: En
 
 ## 📸 Screenshots
 
-![Tic-Tac-Toe Endless Game](src/screenshots/tic-tac-toe-endless-1.png)
+![Tic-Tac-Toe Endless Game](screenshots/tic-tac-toe-endless-1.png)
 *The game in action showing the modern UI with turn indicators and the 3x3 grid (PC View)*
 
-![Tic-Tac-Toe Endless Game](src/screenshots/tic-tac-toe-endless-2.png)
+![Tic-Tac-Toe Endless Game](screenshots/tic-tac-toe-endless-2.png)
 *The game in action showing the finish of the match (PC View)*
 
-![Tic-Tac-Toe Endless Game](src/screenshots/tic-tac-toe-endless-3.jpg)
+![Tic-Tac-Toe Endless Game](screenshots/tic-tac-toe-endless-3.jpg)
 *The game in action (Mobile View)*
 
 
